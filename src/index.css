@@ -1,0 +1,31 @@
+#top-border {
+ /* border-top */
+
+position: absolute;
+width: 100%;
+height: 5px;
+left: 0px;
+top: 0.3px;
+
+
+background: #000000;
+
+}
+.body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+#root{
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+  width: 100%;
+}
+.selfie{
+  width: 30%;
+  height: 30%;
+  position: relative;
+  max-width: 100%;
+}
