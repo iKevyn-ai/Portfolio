@@ -30,14 +30,14 @@ function Skills() {
         <div className="flex flex-col items-center p-4">
       <div className="relative bottom-[-12vh] group">
         <img
-          src="./src/assets/Certificate.png"
+          src="/src/assets/Certificate.png"
           alt="Certificate"
           className="w-96 h-[30vh] object-cover object-top shadow-lg"
         />
         <div className="absolute bottom-0 left-0 right-0 bg-white border-t-2 border-gray-300 shadow-lg transition-all duration-300 group-hover:shadow-xl group-hover:scale-105 origin-bottom">
           <div className="p-3 flex items-center justify-between">
             <span className="text-sm font-medium text-gray-700">Certificate</span>
-            <a href="./src/assets/Certificate.pdf" target="_blank" rel="noopener noreferrer" className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <a href="/src/assets/Certificate.pdf" target="_blank" rel="noopener noreferrer" className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <svg className="w-4 h-4 text-blue-600 hover:text-blue-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
               </svg>
